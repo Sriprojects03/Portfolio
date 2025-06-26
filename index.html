@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scroll Spy Nav</title>
+  <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+   <link rel="stylesheet" href="css/mediaquery.css">
+  
+  
+</head>
+<body>
+
+
+  <nav>
+    <div class="mobile">
+        <div class="logo">
+      <img src="img/logo-removebg-preview.png" alt="">
+    </div>
+
+    <!--Toggle menu button-->
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle Menu">
+      <i class="fas fa-bars" id="menuIcon"></i>
+    </button>
+    </div>
+
+    <ul id="navbar">
+      <li><a href="#home" class="nav-link active">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#education" class="nav-link">Education</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+       <div class="underline" id="underline"></div>
+    </ul>
+     <div class="nav-button">
+      <button><a href="tel:+917200444232">Contact me</a></button>
+    </div>
+  </nav>
+
+
+  <!--button-->
+   <!--button-->
+    <div>
+        <div class="floating-button1">
+                <a href="https://wa.me/919443344161" target="_blank" class="float-btn whatsapp" onclick="expandButton(this)">
+                <img src="img/whatsapp.png" alt="whatsapp logo"> <span class="btn-text">WhatsApp</span>
+            </a>
+        </div>
+        <div class="floating-button2">
+            <a href="tel:+919443344161" class="float-btn call" onclick="expandButton(this)">
+                <img src="img/icons8-call-50.png" alt="Call"> <span class="btn-text">Call Now</span>
+            </a>
+      </div >
+        <script>
+            function expandButton(clickedButton) {
+                document.querySelectorAll(".float-btn").forEach(btn => {
+                    if (btn !== clickedButton) {
+                        btn.classList.remove("active");
+                    }
+                });
+                clickedButton.classList.toggle("active");
+                }
+
+        </script>
+    </div>
+
+
+    
+<section id="home">
+  <div class="home">
+      <div class="name">
+       <h1>Hi, I'm <span>SRI</span></h1>
+       <h2>Digital marketer | Web developer</h2>
+       <div>
+        <button><a href="files/sri resume.pdf" class="resume-button">My Resume</a></button>
+        <button><a href="https://github.com/Sriprojects03">GitHub view</a></button>
+       </div>
+  </div>
+  <div>
+    <img src="img/sree.dp-removebg-preview.png" alt="">
+  </div>
+
+  </div>
+  <div class="home2">
+      
+  <div>
+    <img src="img/sree.dp-removebg-preview.png" alt="">
+  </div>
+  <div class="name">
+       <h1>Hi, I'm <span>SRI</span></h1>
+       <h2>Digital marketer | Web developer</h2>
+       <div class="button">
+        <button><a href="files/sri resume.pdf" class="resume-button">My Resume</a></button>
+        <button><a href="https://github.com/Sriprojects03">GitHub view</a></button>
+       </div>
+  </div>
+
+  </div>
+  
+
+  
+   
+</section>
+<section id="about">
+    <h3>ABOUT ME</h3>
+    <div class="underline1" id="underline"></div>
+    <p>I'm a passionate Digital Marketer, Web Developer, and Creative Poster Designer with hands-on experience in building impactful online experiences. I recently completed a 3-month Digital Marketing Internship at G2G Technologies, where I worked on real-time projects like SEO optimization, website redesign, schema implementation, and landing page creation.</p>
+    <p style="font-weight: bold;">I specialize in:</p>
+    <ul>
+      <li>SEO (On-page & Off-page)</li>
+      <li> Responsive Website Design & Development
+        <li>Poster and Banner Design for Branding</li>
+        <li> UI/UX Enhancements and Conversion Optimization</li>
+
+</li>
+    </ul>
+    <p>During my internship, I successfully worked on projects like the Tirupur Taxi website and helped improve its performance, visibility, and user experience. I also created a stylish, animated Saloon ERP landing page and helped revamp the G2G main website with a modern, techy look.</p>
+    <p>I’m constantly learning and growing — currently exploring React.js, animated UI effects, and smart SEO strategies that make businesses stand out online.
+
+</p>
+<p>If you're looking for someone who blends creativity with performance-driven digital solutions, I’d love to collaborate!</p>
+  </section>
+
+  <!--Skills-->
+<section id="skills">
+    <h3>My Skills & Toolbox</h3>
+    <div class="skill-grid">
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" class="skill-icon">
+          <div class="skill-name">HTML</div>
+          <div class="progress-bar"><div class="progress" data-percentage="98"></div><div class="percentage-label">0%</div></div>
+        </div>
+        <div class="skill-card">
+          <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS">
+          <div class="skill-name">CSS</div>
+          <div class="progress-bar"><div class="progress" data-percentage="95"></div><div class="percentage-label">0%</div></div>
+        </div>
+        <div class="skill-card">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="" class="skill-icon">
+          <div class="skill-name">JavaScript</div>
+          <div class="progress-bar"><div class="progress" data-percentage="75"></div><div class="percentage-label">0%</div></div>
+        </div>
+        <div class="skill-card">
+          <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React">
+          <div class="skill-name">React JS</div>
+          <div class="progress-bar"><div class="progress" data-percentage="70"></div><div class="percentage-label">0%</div></div>
+        </div>
+        <div class="skill-card">
+          <img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+          <div class="skill-name">Python</div>
+          <div class="progress-bar"><div class="progress" data-percentage="60"></div><div class="percentage-label">0%</div></div>
+        </div>
+         <div class="skill-card">
+          <img class="skill-icon" src="img/canva.png" alt="Canva">
+          <div class="skill-name">Canva</div>
+          <div class="progress-bar"><div class="progress" data-percentage="95"></div><div class="percentage-label">0%</div></div>
+        </div>
+        <div class="skill-card">
+          <img class="skill-icon" src="img/seo.png" alt="seo">
+          <div class="skill-name">seo</div>
+          <div class="progress-bar"><div class="progress" data-percentage="92"></div><div class="percentage-label">0%</div></div>
+        </div>
+          <div class="skill-card">
+            <img class="skill-icon" src="https://www.gstatic.com/images/branding/product/2x/search_console_64dp.png" alt="Search Console">
+            <div class="skill-name">Google Search Console</div>
+            <div class="progress-bar"><div class="progress" data-percentage="93"></div><div class="percentage-label">0%</div></div>
+          </div>
+         <div class="skill-card">
+          <img class="skill-icon" src="https://www.gstatic.com/images/branding/product/2x/analytics_64dp.png" alt="Analytics">
+          <div class="skill-name">Google Analytics</div>
+          <div class="progress-bar"><div class="progress" data-percentage="85"></div><div class="percentage-label">0%</div></div>
+        </div>
+         <div class="skill-card">
+          <img class="skill-icon" src="img/meta.png" alt="meta">
+          <div class="skill-name">Meta Ads</div>
+          <div class="progress-bar"><div class="progress" data-percentage="85"></div><div class="percentage-label">0%</div></div>
+        </div>
+
+         <div class="skill-card">
+          <img class="skill-icon" src="img/Google ads.png" alt="Google Ads">
+          <div class="skill-name">Google Ads</div>
+          <div class="progress-bar"><div class="progress" data-percentage="85"></div><div class="percentage-label">0%</div></div>
+        </div>
+        <div class="skill-card">
+          <img class="skill-icon" src="img/ahrefs_BIG.png" alt="Google Ads">
+          <div class="skill-name">Ahref</div>
+          <div class="progress-bar"><div class="progress" data-percentage="83"></div><div class="percentage-label">0%</div></div>
+        </div>
+         <div class="skill-card">
+          <img class="skill-icon" src="img/ubersuggest-logo-01.png" alt="Google Ads">
+          <div class="skill-name">Ubersuggest</div>
+          <div class="progress-bar"><div class="progress" data-percentage="84"></div><div class="percentage-label">0%</div></div>
+        </div>
+
+
+        
+
+       
+
+    </div>
+</section>
+
+<section id="education" class="education-section">
+    <h3>🎓 Education</h3>
+    <div class="underline"></div>
+    <div class="timeline">
+        <div class="edu-card card1">
+          <div class="edu-left">
+            <h4 class="master">Master of business administration</h4>
+            <p class="specialised"> Specialisation in HR and Marketing</p>
+            
+          </div>
+          <div class="edu-right">
+            <p class="year">2023 - 2025</p>
+            <p class="institude">SCAD College Of Engineering & technogies</p>
+            
+          </div>
+        </div>
+        <div class="edu-card">
+          <div class="edu-left">
+            <h4>Bachelor of Chemistry</h4>
+            
+          </div>
+          <div class="edu-right">
+            <p class="year">2020 - 2023</p>
+            <p class="institude">Sree Sevugan Annamalai College</p>
+          </div>
+        </div>
+        <div class="edu-card">
+          <div class="edu-left">
+            <h4>Higher Secondary</h4>
+           
+          </div>
+          <div class="edu-right">
+            <p class="year">2019 - 2020</p>
+             <p class="institude">KA Higher Secondary School</p>
+            
+          </div>
+        </div>
+    </div>
+</section>
+<section class="experience-section">
+   <h3>Internship & Workshop</h3>
+
+   <div class="experience-grid">
+      <div class="experience-card">
+        <h4>Digital Marketing intern</h4>
+        <h5>@ G2G Technologies</h5>
+        <p>Feb 2025 - May 2025</p>
+        <button id="view" onclick="openModel('internship1')">View</button>
+
+      </div>
+      <div class="experience-card">
+        <h4>Mern stack development</h4>
+        <h5>@ NoviTech R&D Pvt Ltd </h5>
+        <p>Dec 2024 - Mar 2025</p>
+         <button id="view" onclick="openModel('internship2')">View</button>
+
+      </div>
+      
+      <div class="experience-card">
+        <h4>Artificial Intelligence</h4>
+        <h5>@ NoviTech R&D Pvt Ltd</h5>
+        <p>Dec 2024 - Jan 2025</p>
+         <button id="view" onclick="openModel('internship3')">View</button>
+      </div>
+      <div class="experience-card">
+        <h4>By AI Tools Workshop</h4>
+        <h5>Be10X</h5>
+        <p>Feb 2025</p>
+         <button id="view" onclick="openModel('workshop1')">View</button>
+      </div>
+      <div class="experience-card">
+        <h4>By Data Driven World</h4>
+        <h5>NoviTech R&D Pvt Ltd</h5>
+        <p>Dec 2024</p>
+         <button id="view" onclick="openModel('workshop2')">View</button>
+      </div>
+   </div>
+
+
+</section>
+
+
+<!--intenship model-->
+<div id="internship1" class="model">
+  <div class="model-content">
+      <span class="close" onclick="closeModel('internship1')">&times;</span>
+      <h3>Digital Marketing Intern - G2G Technologies</h3>
+      <p><strong>Duration:</strong> Feb 2025 - May 2025</p>
+      <p><strong>Projects</strong> Tirupur Taxi website SEO, G2G Website Off-page SEO,Design Saloon erp landing page,redesign G2G Website</p>
+      <p><strong>Role:</strong> SEO Optimization, Google Ads, Website Redesign</p>
+      <p><strong>Skills Gained:</strong> On-Page,Off-page,technical SEO,Keyword research, Google Analytics, Schema Markup, Sitemap Optimization</p>
+      <p><a href="files/G2G_copy.pdf">View Certificate</a></p>
+  </div>
+
+</div>
+
+
+<div id="internship2" class="model">
+  <div class="model-content">
+      <span class="close" onclick="closeModel('internship2')">&times;</span>
+      <h3>Mern Stack Development - NoviTech R&D Pvt Ltd</h3>
+      <p><strong>Duration:</strong> Dec 2024 - Mar 2025 (3-month) </p>
+      <p><strong>Projects</strong> To-Do List,Gemini AI Clone</p>
+      <p><strong>Skills Gained:</strong> HTML, CSS,Javascript,React js, Node js, Express js,Mongo DB</p>
+      <p><a href="files/FSD 3 Month MERN Stack .pdf">View Certificate</a></p>
+  </div>
+
+</div>
+
+<div id="internship3" class="model">
+  <div class="model-content">
+      <span class="close" onclick="closeModel('internship3')">&times;</span>
+      <h3>Artificial Intelligence - NoviTech R&D Pvt Ltd</h3>
+      <p><strong>Duration:</strong> Dec 2024 - Jan 2025 (1-month)</p>
+      <p><strong>Skills Gained:</strong> Python AI basic(pandas), Machine Learning Basics</p>
+      <p><a href="files/artificail.pdf">View Certificate</a></p>
+  </div>
+
+</div>
+
+<div id="workshop1" class="model">
+  <div class="model-content">
+      <span class="close" onclick="closeModel('workshop1')">&times;</span>
+      <h3>AI Tools Workshop - BE10X</h3>
+      <p><strong>Duration:</strong> 2hours(Feb 2025)</p>
+      <p><strong>Skills Gained:</strong> AI Tools</p>
+      <p><a href="files/artificail.pdf">View Certificate</a></p>
+  </div>
+
+</div>
+<div id="workshop2" class="model">
+  <div class="model-content">
+      <span class="close" onclick="closeModel('workshop2')">&times;</span>
+      <h3>Data Driven World - NoviTech R&D Pvt Ltd</h3>
+      <p><strong>Duration:</strong> 2hours(Dec 2024)</p>
+      <p><strong>Knowledge Gained:</strong> Understanding how data influences business strategies, marketing, and product development.
+
+</p>
+      <p><a href="files/data fsd.pdf" class="view-but">View Certificate</a></p>
+  </div>
+
+</div>
+
+
+
+
+
+
+
+<section id="projects">
+  <h3>Projects</h3>
+  <div class="project-button">
+
+      <button class="tab-button active"  data-tab="dmTab">Digital Marketing</button>
+      <button class="tab-button" data-tab="devTab">Web Development</button>
+
+  </div>
+
+  <div id="dmTab" class="tab-content active">
+    <div class="dm-grid">
+      <div class="project-card">
+        <h4 style="font-size: 23px;">Tirupur Taxi - SEO & Performance</h4>
+        <p class="card-short">Raised performance score from 0→3.24 and gained 3K+ impressions in one month.</p>
+
+        <button onclick="openModel('taxes')">Details</button>
+
+      </div>
+       <div class="project-card">
+        <h4>G2G Technology - Off-page SEO</h4>
+        <p class="card-short">Blog & directory submissions drove steady growth in impressions and traffic.</p>
+        <button onclick="openModel('g2g')">Details</button>
+
+      </div>
+      <div class="project-card facebook">
+        
+          <h4>Facebook Ads – Event Campaign</h4>
+          <p class="card-short">Achieved 4.2% CTR and 3.5x ROI in under 2 weeks. Targeted regional audiences with precision.</p>
+          <a class="download-btn" href="files/Sriram-Ad-Account-Campaigns-May-19-2025-Jun-17-2025 (1).csv" download>Download Report</a>
+         
+        
+      </div>
+
+    </div>
+  </div>
+
+  <div id="devTab" class="tab-content">
+    <div class="web-grid">
+      <div class="project-card">
+        <h4>To-do App</h4>
+        <p class="card-short">Raised performance score from 0→3.24 and gained 3K+ impressions in one month.</p>
+        <button><a href="https://github.com/Sriprojects03/todo-fullstack-app">View Code</a></button>
+
+      </div>
+       <div class="project-card">
+        <h4>Gemini AI</h4>
+        <p class="card-short">Blog & directory submissions drove steady growth in impressions and traffic.</p>
+        <button><a href="https://github.com/Sriprojects03/Gemini2.o">View Code</a></button>
+
+      </div>
+
+    </div>
+  </div>
+
+ <div class="preview" id="taxes">
+     <div class="details">
+       <span class="close1" onclick="closeModel('taxes')">&times;</span>
+          <h5>Tirupur Taxi - SEO Performance</h5>
+          <div class="perform">
+               <ul>
+              <li>Redesigned entire site with HTML, CSS & JavaScript</li>
+              <li>Fixed all indexing errors in Google Search Console</li>
+              <li>Implemented canonical tags & optimized <code>robots.txt</code></li>
+              <li>Indexed previously non-indexed pages</li>
+              <li>Achieved <strong>3,000+ impressions</strong> in Google Search</li>
+              <li>Keyword research using Keyword Planner & Ubersuggest</li>
+              <li>Optimized meta titles and meta descriptions</li>
+              <li>Corrected heading structure (H1, H2, H3)</li>
+              <li>Image optimization and alt text addition</li>
+              <li>Page speed improvements for faster loading</li>
+              <li>Added schema structured data</li>
+              <li>Created and submitted sitemap</li>
+              <li>Ensured full mobile responsiveness</li>
+          </ul>
+         <div class="shot">
+           <p>Before-<a href="img/Screenshot 2025-05-15 135527.png">view performance</a></p>
+           <p>After-<a href="img/Screenshot 2025-05-15 134922.png">view performance</a></p>
+         
+          </div>
+          </div>
+          
+
+         
+    </div>
+ </div>
+   <div class="preview" id="g2g">
+       <div class="details">
+       <span class="close1" onclick="closeModel('g2g')">&times;</span>
+      <h5>G2G Technologies Main Website</h5>
+       <ul>
+              <li>Created engaging blog posts for backlink building</li>
+              <li>Directory submissions to increase domain authority</li>
+              <li>Generated &amp; submitted XML sitemap</li>
+              <li>Tracked impressions &amp; traffic growth in GSC</li>
+            </ul>
+    </div>
+   </div>
+   
+  
+
+</section>
+
+<section id="contact" class="contact">
+    <h3 class="get-in">Get In Touch</h3>
+    <p class="contact-subtitle">I'm open to freelance projects, internships, or full-time opportunities.</p>
+    <div class="contact-list">
+        <div class="form-side">
+    
+    <form id="myForm">
+  <input type="text" name="name" placeholder="Enter Your Name" required>
+  <input type="number" name="number" placeholder="Enter Your Number" required>
+  <input type="email" name="email" placeholder="Enter Your Email" required>
+  <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+  <button type="submit">Send</button>
+</form>
+  </div>
+  <div class="video">
+     <video src="img/work (online-video-cutter.com).mp4" autoplay muted loop playsinline></video>
+  </div>
+    </div>
+  
+</section>
+
+<footer>
+  <div class="foot">
+       <div class="link-foot">
+    <h5>Quick Links</h5>
+    <div class="links">
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </div>
+    
+  </div>
+   <div class="footer-social">
+        <h5>Follow Us</h5>
+        <a href="https://www.facebook.com/share/16oRNhscEe/"><i class="fab fa-facebook-f" style="color: rgb(32, 122, 190);"></i></a>
+        <a href="https://www.instagram.com/sr.digital_marketing?igsh=MXp6cHllY3ZjOTls"><i class="fab fa-instagram" style="color: rgb(255, 0, 225);"></i></a>
+        <a href="https://www.linkedin.com/in/sri-ram-0b04a1316?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin-in" style="color: rgb(20, 196, 255);"></i></a>
+        <a href="https://github.com/Sriprojects03"><i class="fab fa-github" style="color: white;"></i></a>
+      </div>
+      <div class="footer-contact">
+        <h5>Contact</h5>
+        <p><i class="fas fa-envelope"></i> sri.sgc994@gmail.com</p>
+        <p><i class="fas fa-phone-alt" style="color: rgb(250, 10, 10);"></i> +91-7200444232</p>
+      </div>
+  </div>
+  <div class="footer-bottom">
+      &copy; 2025 SRIRAM. All rights reserved.
+    </div>
+ 
+
+</footer>
+
+
+ <script src="script.js"></script>
+</body>
+</html>
