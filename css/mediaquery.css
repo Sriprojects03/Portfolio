@@ -1,0 +1,1020 @@
+ @media (max-width:1280px) and (min-height: 800px){
+   nav{
+    gap: 6rem;
+   }
+    #home{
+       
+       margin-bottom: 12rem;
+       margin-top: 12rem;
+      
+    }
+    .experience-grid{
+        margin-left: 4.5rem;
+    }
+    #education .underline {
+            margin-left: 34.5rem;
+        }
+    .tab-content{
+        margin-left: 1rem;
+    }
+    .model-content{
+        margin-left: 20rem;
+    }
+    .details{
+        margin-left: 10rem;
+    }
+    .footer-social {
+     margin-left: -5rem;
+  }
+  .link-foot{
+    margin-left: 6rem;
+  }
+   
+}
+
+@media (max-width:1024px) {
+  nav{
+    gap: 1rem;
+  }
+   nav ul {
+    gap: 1rem;
+    
+   }
+   nav ul li a{
+    font-size: 16px;
+   }
+    #home h1{
+      font-size: 48px;
+    }
+     #home h2{
+      font-size: 32px;
+    }
+    #home img{
+      width: 370px;
+    }
+    .floating-button1{
+         right: 11px;
+    }
+    .floating-button2 {
+         top: 61%;
+         right: 11px;
+    }
+     #home button{
+        width: 10rem;
+     }
+      #about h3{
+      font-size: 32px;
+    }
+       #about p{
+         font-size: 16px;
+       }
+         #about ul{
+            font-size: 16px;
+         }
+           #skills h3{
+             font-size: 34px;
+           }
+            .timeline{
+                text-align: justify;
+            }
+       #education .underline {
+            margin-left: 26.5rem;
+        }
+        input,textarea{
+            width: 30rem;
+        }
+        video{
+            width: 500px;
+            margin-right: -2.5rem;
+            
+            }
+         .dm-grid,.web-grid{
+          grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    justify-content: center;
+         }
+         .facebook{
+          margin-top: 3rem;
+           margin-left: 18rem;
+         }
+     
+    
+}
+
+
+
+@media screen and (max-device-width: 1024px) and (orientation: portrait) {
+   
+   nav{
+    flex-direction: column;
+    gap: 1px;
+   }
+   .mobile{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 42rem;
+    flex-direction: row;
+   }
+    .menu-toggle{
+        display: block;
+        background-color: white;
+        color: black;
+    }
+    .menu-toggle:hover{
+        background-color: black;
+        color: white;
+    }
+
+    #navbar{
+        overflow: hidden;
+        flex-direction: column;
+        height: 0;
+        gap: 10px;
+        margin-right: 2rem;
+        transition: height 0.4s ease;
+
+    }
+    #navbar.show{
+        height: 368px;
+    }
+    #navbar li{
+         width: 62rem;
+          margin-right: 10px;
+        text-align: center;
+        border-bottom: 2px solid white;
+        padding: 10px 0;
+       
+        background-color: rgb(48, 45, 45);
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(255, 255, 255, 0.2);
+    }
+    
+    #navbar a {
+     
+     font-weight: bold;
+      color: rgb(255, 249, 249);
+      font-size: 19px;
+    }
+
+   .nav-button button {
+    margin-top: -5rem;
+        width: 63rem;
+    }
+    
+.home{
+    display: none;
+}
+   .home2 {
+   
+    gap: 1px;
+   margin-top: 16rem;
+   margin-bottom: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+  }
+  
+  #home h1 {
+    font-size: 4.5rem;
+    text-align: center;
+   
+  }
+
+  #home h2 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  .name .button{
+    margin-left:9rem;
+  
+
+    
+  }
+   #home button{
+    padding: 30px 29px;
+    width: 14rem;
+   
+  }
+  #home button a{
+     font-size: 27px;
+  }
+
+
+  #home img {
+    width: 600px;
+   
+  }
+  #about p{
+    font-size: 22px ;
+  }
+   #about ul li{
+    font-size: 22px ;
+  }
+  .experience-grid{
+    margin-left: 1rem;
+    margin-right: -2rem;
+  }
+  #projects{
+   padding-bottom: 7rem;
+  }
+
+  .details{
+    margin-left: 3rem;
+  }
+  .video{
+    margin-left: -2rem;
+  }
+  .form-side{
+   margin-left: 3rem;
+  }
+  .footer-social {
+    margin-left: -10rem;
+  }
+} 
+
+@media screen and (min-device-width: 900px) and (max-device-width: 912px) and (orientation: portrait) {
+   
+   
+   .mobile{
+    gap: 37rem;
+   }
+   .menu-toggle{
+ 
+    font-size: 26px;
+  width: 7.5rem;
+ padding-top: 1.5rem;
+  padding-bottom: 3rem;
+   }
+     #navbar li{
+         width: 56.5rem;
+        }
+  
+
+   .nav-button button {
+    margin-top: -5rem;
+   
+        width: 57rem;
+    }
+     #home{
+        margin-top: -2rem;
+       
+   }
+  
+   #home img{
+    width: 500px;
+   }
+   
+   
+   #skills{
+    padding-bottom: 4rem;
+   }
+   .model-content {
+    margin-left: 9rem;
+   }
+    #projects h3::after{
+        left: 46%;
+    }
+  .facebook{
+    margin-left: 15rem;
+  }
+  .details{
+    margin-left: 0.5rem;
+  }
+   .form-side{
+   margin-top: -15rem;
+  }
+  input,textarea{
+  width: 41rem;
+}
+  .video{
+   
+   margin-top: 27rem;
+   margin-left: -25rem;
+   
+}
+.video video{
+    width:600px;
+}
+.footer-social{
+  margin-left: 1.5rem;
+}
+
+
+}
+@media screen and (max-device-width: 853px) and (orientation: portrait) {
+
+    .mobile{
+        gap: 34rem;
+    }
+    .nav-button button {
+  
+        width: 52.3rem;
+    }
+     .menu-toggle{
+ 
+    font-size: 23px;
+  width: 7rem;
+ padding-top: 1rem;
+  padding-bottom: 2.5rem;
+   }
+    #navbar li{
+         width: 52rem;
+        }
+
+    #home h2{
+        margin-left: 3rem;
+        margin-top: -1rem;
+    }
+   
+     .name .button{
+    margin-left:11rem;
+    
+  }
+ #education .underline {
+    margin-left: 20.5rem;
+  
+ }
+ .master{
+      white-space: nowrap;
+ }
+   .model-content{
+    margin-left: 9rem;
+   } 
+  
+     #projects h3::after{
+        left: 46%;margin-top: 10px;
+    }
+    .details{
+        margin-left: 0.3rem;
+    }
+    .facebook{
+        margin-left: 11rem;
+    }
+    #contact{
+        width: 89vw;
+        margin-bottom: 0;
+    }
+    .get-in,.contact-subtitle{
+        font-size: 85px;
+        margin-left: 5rem;
+
+    }
+    .footer-social{
+      margin-left: 2rem;
+    }
+    
+   
+.video{
+   
+   margin-top: 27rem;
+   margin-left: -15rem;
+   
+  
+}
+.video video{
+    width:600px;
+}
+form{
+   margin-top: -17rem;
+}
+  
+}
+@media (max-width:768px) {
+   
+    .mobile{
+        gap: 30rem;
+    }
+    #navbar li{
+         width: 48rem;
+        }
+         .nav-button button {
+  
+        width: 48rem;
+    }
+    #home img{
+        width: 450px;
+    }
+
+     #home h1{
+    font-size: 4rem;
+   
+   
+  }
+
+  #home h2 {
+    font-size: 2.5rem;
+    
+  }
+  #home .button{
+    margin-left: 8rem;
+  }
+  #home button{
+    width: 13rem;
+    padding: 21px 5px;
+  }
+  #home button a{
+    font-size: 23px;
+  }
+  #about p{
+    font-size: 19px;
+  }
+  #about ul li{
+    font-size: 19px;
+  }
+
+#education .underline {
+    margin-left: 18.5rem;
+  
+ }
+    .experience-section h3::after{
+    left: 44%;
+    
+   } 
+    
+ 
+   #projects h3::after{
+    left: 46%;
+   }
+   .contact-subtitle{
+    white-space:nowrap;
+   }
+   video{
+    margin-left:-3rem;
+   }
+  .foot{
+     gap: 1rem;
+  }
+  
+   
+}
+@media (max-width: 540px) {
+       .mobile{
+        gap: 22rem;
+    }
+    .logo img{
+        width: 100px;
+        margin-top: -3px;
+    }
+    .menu-toggle{
+        font-size: 16px;
+        width: 4rem;
+        padding: 0 13px;
+    }
+    #navbar ul{
+          margin-bottom: 0.5rem;
+    }
+    #navbar li{
+         width: 33.5rem;
+         margin-bottom: 10px;
+       
+        
+        }
+         #navbar li a{
+             font-size: 15px;
+           
+         }
+        
+    .nav-button button {
+  
+        width: 34rem;
+    }
+    #home{
+  margin-top: -2.5rem;
+}
+    #home img{
+        width: 330px;
+    }
+
+     #home h1{
+    font-size: 3rem;
+   
+   
+  }
+
+  #home h2 {
+    font-size: 1.9rem;
+    
+  }
+  #home .button{
+    margin-left: 6rem;
+  }
+  #home button{
+    width: 10rem;
+    padding: 17px 5px;
+  }
+  #home button a{
+    font-size: 19px;
+  }
+  .float-btn {
+    width: 50px;
+    height: 50px;
+  }
+  .float-btn img {
+  width: 30px;
+  height: 30px;
+}
+    #about{
+      margin-top: -6rem;
+    }
+    #about p{
+        font-size: 16px;
+    }
+     #about ul li{
+        font-size: 16px;
+    }
+  #education .underline {
+    margin-left: 11.4rem;
+  
+ }
+    .model-content{
+    margin-left: 2rem;
+   }
+   
+    .facebook{
+        margin-left: 3rem;
+        margin-top: -0.5rem;
+    }
+     #projects h3::after{
+    left: 43%;
+   }
+    .contact h3{
+        font-size: 39px;
+    }
+    .contact p{
+        font-size: 16px;
+        margin-left: 2rem;
+    }
+
+input,textarea{
+    width: 25rem;
+}
+
+   .video video{
+        width:400px
+    }
+  footer {
+    padding: 3rem 1.2rem 2rem;
+  }
+  .footer-social {
+     margin-left: -1rem;
+  }
+
+  .foot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+    text-align: center;
+  }
+
+  .foot h5 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #00ffd5;
+    margin-bottom: 0.6rem;
+  }
+
+  .foot h5::after {
+    content: '';
+    width: 40px;
+    height: 2px;
+    background-color: #00ffd5;
+    display: block;
+    margin: 0.4rem auto 0;
+    position: static;
+  }
+
+  .links a {
+    font-size: 16px;
+    margin: 0.4rem 0;
+  }
+
+  .footer-contact p {
+    font-size: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .footer-social {
+    align-items: center;
+    width: 100%;
+  }
+
+  .social-icons {
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .social-icons a {
+    font-size: 17px;
+    width: 38px;
+    height: 38px;
+    padding: 10px;
+  }
+
+  .footer-bottom {
+    font-size: 13px;
+    padding-top: 1rem;
+  }
+}
+
+   @media screen and (max-device-width: 430px) and (orientation: portrait){
+    .mobile{
+        gap: 16rem;
+    }
+    .logo img{
+        width: 95px;
+        margin-top: -3px;
+    }
+    .menu-toggle{
+        font-size: 15px;
+        
+        padding: 0 11px;
+    }
+   
+    #navbar li{
+         width: 26.5rem;
+         margin-bottom: 10px;
+       
+        
+        }
+        
+        
+    .nav-button button {
+  
+        width: 27rem;
+    }
+    #home{
+      margin-top: 6rem;
+    }
+
+     #home img{
+        width: 310px;
+    }
+
+     #home h1{
+      margin-top: -1rem;
+    font-size: 2.6rem;
+   
+   
+  }
+
+  #home h2 {
+    font-size: 1.6rem;
+    margin-left: -0.2rem;
+    
+  }
+  #home .button{
+    margin-left: 2rem;
+  }
+  #home button{
+    width: 10rem;
+    padding: 17px 5px;
+  }
+  #home button a{
+    font-size: 19px;
+  }
+  #about{
+    margin-top: 2rem;
+  }
+  #about p{
+    margin-left: 2rem;
+  }
+     #about ul li{
+        margin-right: 3rem;
+    }
+    .edu-left h4 {
+      font-size: 19px;
+    }
+    .edu-right .year {
+ 
+  font-size: 14px;
+
+}
+
+.edu-right .institude {
+  font-size: 14px;
+  
+}
+
+     #education .underline {
+    margin-left: 8rem;
+  
+ }
+  .experience-section h3{
+    font-size: 35px;
+  }
+   .experience-section h3::after{
+    left: 40%;
+    
+   }
+   #projects h3{
+    font-size: 29px;
+   }
+   #projects h3::after{
+    width: 40px;
+    left: 44%;
+   }
+   .project-button .tab-button{
+    font-size: 15px;
+   }
+   .project-card{
+    max-width: 280px;
+   }
+   .dm-grid h4{
+    font-size: 20px;
+   }
+   .dm-grid p,.web-grid p{
+    font-size: 16px;
+   }
+   .facebook{
+    margin-left: 1.5rem;
+   }
+    .contact h3{
+        font-size: 37px;
+    }
+    .contact p{
+        font-size: 13px;
+        
+    }
+
+input,textarea{
+    width: 22rem;
+}
+
+   .video video{
+        width:350px;
+        margin-left: -5rem;
+
+        
+    }
+    .link-foot{
+      margin-left: -2.3rem;
+    }
+   
+   }
+
+   @media screen and (max-device-width: 414px) and (orientation: portrait){
+    .mobile{
+      gap: 15rem;
+    }
+     #navbar li{
+         width: 26rem;
+        
+        }
+        
+        
+    .nav-button button {
+  
+        width: 26rem;
+    }
+     #home img{
+        width: 290px;
+    }
+     #education .underline {
+    margin-left: 7.5rem;
+  
+ }
+ .experience-section h3{
+  font-size: 32px;
+ }
+ .facebook{
+  margin-left: 1rem;
+ }
+.contact p{
+  margin-left: 1rem;
+}
+ .link-foot {
+     margin-left: -2.1rem;
+  }
+   
+   }
+
+   @media screen and (max-device-width: 390px) and (orientation: portrait){
+
+    .menu-toggle{
+      margin-left: -2rem;
+    }
+    #navbar li{
+         width: 24.5rem;
+        
+        }
+        
+        
+    .nav-button button {
+  
+        width: 24.5rem;
+    }
+    #home{
+      margin-top: -2rem;
+    }
+    #home h2{
+      font-size: 23px;
+    }
+   .button{
+    margin-top: 3rem;
+  }
+  #about{
+    margin-top: -2rem;
+  }
+   .edu-left h4 {
+      font-size: 17px;
+    }
+    .edu-right .year {
+ 
+  font-size: 12px;
+
+}
+
+.edu-right .institude {
+  font-size: 13px;
+  
+}
+     #education .underline {
+    margin-left: 6.7rem;
+  
+ }
+   .project-button .tab-button{
+    font-size: 13px;
+   }
+  .facebook{
+    margin-left: 0.5rem;
+  }
+   .contact p{
+margin-left: 1rem;
+font-size: 12px;
+
+
+ }
+ input,textarea{
+  width: 21rem;
+  font-size: 14px;
+ }
+   }
+@media screen and (max-device-width: 375px) and (orientation: portrait){
+   .menu-toggle{
+     
+      width: 4rem;
+
+      height: 2.3rem;
+     
+    }
+     #navbar li{
+         width: 23rem;
+      
+        
+        }
+   
+    .nav-button button {
+  
+        width: 23.5rem;
+    }
+     .float-btn {
+    width: 45px;
+    height: 45px;
+  }
+  .float-btn img {
+  width: 25px;
+  height: 25px;
+}
+    #home{
+      margin-top: -4rem;
+    }
+    #home img{
+      width: 250px;
+    }
+     #home h2{
+      font-size: 22px;
+    }
+   #home .button{
+  margin-left:0.2rem;
+    margin-right: -1.6rem;
+   }
+  
+   #about{
+    margin-top: -8rem;
+   }
+    #about p{
+      font-size: 14px;
+    }
+    #about ul li{
+      font-size: 14px;
+    }
+     #skills h3{
+    font-size: 30px;
+   }
+   .experience-section h3{
+    font-size:30px ;
+   }
+   .experience-card h4{
+  font-size: 19px;
+ 
+}
+.experience-card h5{
+  font-size: 16px;
+  
+}
+     .project-button .tab-button{
+    font-size: 12px;
+   }
+   .contact p{
+    margin-left: 1rem;
+    font-size: 11px;
+   }
+   input,textarea{
+  width: 19rem;
+  
+ }
+
+   }
+   @media screen and (max-device-width: 360px) and (orientation: portrait){
+     .menu-toggle{
+      margin-left: -3rem;
+      width: 4rem;
+
+      height: 2.5rem;
+     
+    }
+    #navbar li{
+         width: 22rem;
+        
+        
+        }
+        
+        #navbar li a{
+          font-size: 13px;
+        }
+
+    .nav-button button {
+  
+        width: 23rem;
+    }
+     .nav-button button a{
+      font-size: 15px;
+       
+    }
+
+    #home{
+      margin-top: -2rem;
+    }
+   
+   #about{
+    margin-top: -8rem;
+   }
+    #education .underline {
+    margin-left: 5.7rem;
+  
+ }
+  
+   }
+   @media screen and (max-device-width: 344px) and (orientation: portrait){
+.menu-toggle{
+  margin-left: -4rem;
+}
+ #navbar li{
+         width: 21.5rem;
+        
+        
+        }
+        
+      
+    .nav-button button {
+  
+        width: 21.5rem;
+    }
+     #home h1{
+      font-size: 35px;
+    }
+     #home h2{
+      font-size: 20px;
+    }
+    #about{
+      margin-top: -2rem;
+    }
+    #about ul li{
+      margin-left: -2rem;
+      margin-right: 4rem;
+    }
+    .experience-section h3{
+      font-size: 27px;
+    }
+    .experience-card h4{
+  font-size: 18px;
+ 
+}
+.experience-card h5{
+  font-size: 15px;
+  
+}
+ .project-button .tab-button{
+    font-size: 11px;
+   }
+    input,textarea{
+  width: 17rem;
+  font-size: 10px;
+  
+ }
+   
+   }
